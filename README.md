@@ -25,3 +25,11 @@ Includes an implementation of fuzzing as described by [the fuzzing proposal](htt
 ### Updates to the `Go` command
 
 Not going to go over the specifics in this demo but they can be found [here](https://tip.golang.org/doc/go1.18#go-command).
+
+### Release Notes
+
+To read more about the features of go1.18 see the [release notes](https://tip.golang.org/doc/go1.18).
+
+## LICENSE
+
+MIT
