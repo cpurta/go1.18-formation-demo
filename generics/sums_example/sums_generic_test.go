@@ -18,7 +18,13 @@ func TestSumGenericNumbers(t *testing.T) {
 		"second": 26.99,
 	}
 
+	strings := map[string]string{
+		"first":  "34",
+		"second": "35.98",
+	}
+
 	require.Equal(t, int64(46), SumGenericNumbers(ints))
 	require.Equal(t, float64(62.97), SumGenericNumbers(floats))
+	require.Equal(t, "35.98", SumGenericNumbers(strings))
 	require.Equal(t, float64(108.97), float64(SumGenericNumbers(ints))+SumGenericNumbers(floats))
 }

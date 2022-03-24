@@ -2,7 +2,7 @@ package sums
 
 // Generic type constraint
 type GenericNumber interface {
-	int64 | float64
+	int64 | float64 | string
 }
 
 func SumGenericNumbers[K comparable, V GenericNumber](m map[K]V) V {

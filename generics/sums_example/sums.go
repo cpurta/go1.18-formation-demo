@@ -8,7 +8,6 @@ func SumInts(m map[string]int64) int64 {
 	return s
 }
 
-// SumFloats adds together the values of m.
 func SumFloats(m map[string]float64) float64 {
 	var s float64
 	for _, v := range m {
